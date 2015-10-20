@@ -12,7 +12,6 @@
 		489A1A541BD62DD100ED4232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A531BD62DD100ED4232 /* ViewController.m */; };
 		489A1A571BD62DD100ED4232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A1A551BD62DD100ED4232 /* Main.storyboard */; };
 		489A1A591BD62DD100ED4232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A1A581BD62DD100ED4232 /* Assets.xcassets */; };
-		489A1A5C1BD62DD100ED4232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A1A5A1BD62DD100ED4232 /* LaunchScreen.storyboard */; };
 		489A1A671BD62DD100ED4232 /* gitBaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A661BD62DD100ED4232 /* gitBaiSiTests.m */; };
 		489A1A721BD62DD100ED4232 /* gitBaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A711BD62DD100ED4232 /* gitBaiSiUITests.m */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		489A1A531BD62DD100ED4232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		489A1A561BD62DD100ED4232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		489A1A581BD62DD100ED4232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		489A1A5B1BD62DD100ED4232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		489A1A5D1BD62DD100ED4232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489A1A621BD62DD100ED4232 /* gitBaiSiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitBaiSiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A1A661BD62DD100ED4232 /* gitBaiSiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitBaiSiTests.m; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				489A1A531BD62DD100ED4232 /* ViewController.m */,
 				489A1A551BD62DD100ED4232 /* Main.storyboard */,
 				489A1A581BD62DD100ED4232 /* Assets.xcassets */,
-				489A1A5A1BD62DD100ED4232 /* LaunchScreen.storyboard */,
 				489A1A5D1BD62DD100ED4232 /* Info.plist */,
 				489A1A4C1BD62DD100ED4232 /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489A1A5C1BD62DD100ED4232 /* LaunchScreen.storyboard in Resources */,
 				489A1A591BD62DD100ED4232 /* Assets.xcassets in Resources */,
 				489A1A571BD62DD100ED4232 /* Main.storyboard in Resources */,
 			);
@@ -314,14 +310,6 @@
 				489A1A561BD62DD100ED4232 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		489A1A5A1BD62DD100ED4232 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				489A1A5B1BD62DD100ED4232 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "BrandAsset-2";
 				INFOPLIST_FILE = gitBaiSi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.gitBaiSi;
@@ -424,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "BrandAsset-2";
 				INFOPLIST_FILE = gitBaiSi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.gitBaiSi;
