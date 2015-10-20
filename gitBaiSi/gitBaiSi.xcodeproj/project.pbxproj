@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		489A1A4E1BD62DD100ED4232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A4D1BD62DD100ED4232 /* main.m */; };
-		489A1A511BD62DD100ED4232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A501BD62DD100ED4232 /* AppDelegate.m */; };
-		489A1A541BD62DD100ED4232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A531BD62DD100ED4232 /* ViewController.m */; };
-		489A1A571BD62DD100ED4232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A1A551BD62DD100ED4232 /* Main.storyboard */; };
-		489A1A591BD62DD100ED4232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A1A581BD62DD100ED4232 /* Assets.xcassets */; };
 		489A1A671BD62DD100ED4232 /* gitBaiSiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A661BD62DD100ED4232 /* gitBaiSiTests.m */; };
 		489A1A721BD62DD100ED4232 /* gitBaiSiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A711BD62DD100ED4232 /* gitBaiSiUITests.m */; };
+		489A1AB91BD68CEC00ED4232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A1A931BD68CEC00ED4232 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		489A1ABC1BD68CEC00ED4232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AA91BD68CEC00ED4232 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		489A1ABD1BD68CEC00ED4232 /* UIView+XXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AAC1BD68CEC00ED4232 /* UIView+XXExtension.m */; settings = {ASSET_TAGS = (); }; };
+		489A1ABE1BD68CEC00ED4232 /* XXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AAF1BD68CEC00ED4232 /* XXNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		489A1ABF1BD68CEC00ED4232 /* XXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AB11BD68CEC00ED4232 /* XXTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		489A1AC01BD68CEC00ED4232 /* XXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AB61BD68CEC00ED4232 /* XXTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		489A1AC11BD68CEC00ED4232 /* XXTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AB81BD68CEC00ED4232 /* XXTabButton.m */; settings = {ASSET_TAGS = (); }; };
+		489A1AC41BD68FE500ED4232 /* XXEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC31BD68FE500ED4232 /* XXEssenceController.m */; settings = {ASSET_TAGS = (); }; };
+		489A1AC71BD6901A00ED4232 /* XXFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC61BD6901A00ED4232 /* XXFriendTrendsController.m */; settings = {ASSET_TAGS = (); }; };
+		489A1ACA1BD6903100ED4232 /* XXMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC91BD6903100ED4232 /* XXMeController.m */; settings = {ASSET_TAGS = (); }; };
+		489A1ACD1BD6904400ED4232 /* XXNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1ACC1BD6904400ED4232 /* XXNewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +43,34 @@
 /* Begin PBXFileReference section */
 		489A1A491BD62DD100ED4232 /* gitBaiSi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitBaiSi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A1A4D1BD62DD100ED4232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		489A1A4F1BD62DD100ED4232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		489A1A501BD62DD100ED4232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		489A1A521BD62DD100ED4232 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		489A1A531BD62DD100ED4232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		489A1A561BD62DD100ED4232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		489A1A581BD62DD100ED4232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		489A1A5D1BD62DD100ED4232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489A1A621BD62DD100ED4232 /* gitBaiSiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitBaiSiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A1A661BD62DD100ED4232 /* gitBaiSiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitBaiSiTests.m; sourceTree = "<group>"; };
 		489A1A681BD62DD100ED4232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489A1A6D1BD62DD100ED4232 /* gitBaiSiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitBaiSiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A1A711BD62DD100ED4232 /* gitBaiSiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitBaiSiUITests.m; sourceTree = "<group>"; };
 		489A1A731BD62DD100ED4232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489A1A931BD68CEC00ED4232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = classes/Assets.xcassets; sourceTree = "<group>"; };
+		489A1AA81BD68CEC00ED4232 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		489A1AA91BD68CEC00ED4232 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		489A1AAB1BD68CEC00ED4232 /* UIView+XXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XXExtension.h"; sourceTree = "<group>"; };
+		489A1AAC1BD68CEC00ED4232 /* UIView+XXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXExtension.m"; sourceTree = "<group>"; };
+		489A1AAE1BD68CEC00ED4232 /* XXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNavigationController.h; sourceTree = "<group>"; };
+		489A1AAF1BD68CEC00ED4232 /* XXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNavigationController.m; sourceTree = "<group>"; };
+		489A1AB01BD68CEC00ED4232 /* XXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTabBarController.h; sourceTree = "<group>"; };
+		489A1AB11BD68CEC00ED4232 /* XXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTabBarController.m; sourceTree = "<group>"; };
+		489A1AB31BD68CEC00ED4232 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		489A1AB51BD68CEC00ED4232 /* XXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTabBar.h; sourceTree = "<group>"; };
+		489A1AB61BD68CEC00ED4232 /* XXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTabBar.m; sourceTree = "<group>"; };
+		489A1AB71BD68CEC00ED4232 /* XXTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTabButton.h; sourceTree = "<group>"; };
+		489A1AB81BD68CEC00ED4232 /* XXTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTabButton.m; sourceTree = "<group>"; };
+		489A1AC21BD68FE500ED4232 /* XXEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXEssenceController.h; sourceTree = "<group>"; };
+		489A1AC31BD68FE500ED4232 /* XXEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXEssenceController.m; sourceTree = "<group>"; };
+		489A1AC51BD6901A00ED4232 /* XXFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXFriendTrendsController.h; sourceTree = "<group>"; };
+		489A1AC61BD6901A00ED4232 /* XXFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXFriendTrendsController.m; sourceTree = "<group>"; };
+		489A1AC81BD6903100ED4232 /* XXMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMeController.h; sourceTree = "<group>"; };
+		489A1AC91BD6903100ED4232 /* XXMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMeController.m; sourceTree = "<group>"; };
+		489A1ACB1BD6904400ED4232 /* XXNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNewController.h; sourceTree = "<group>"; };
+		489A1ACC1BD6904400ED4232 /* XXNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +121,7 @@
 		489A1A4B1BD62DD100ED4232 /* gitBaiSi */ = {
 			isa = PBXGroup;
 			children = (
-				489A1A4F1BD62DD100ED4232 /* AppDelegate.h */,
-				489A1A501BD62DD100ED4232 /* AppDelegate.m */,
-				489A1A521BD62DD100ED4232 /* ViewController.h */,
-				489A1A531BD62DD100ED4232 /* ViewController.m */,
-				489A1A551BD62DD100ED4232 /* Main.storyboard */,
-				489A1A581BD62DD100ED4232 /* Assets.xcassets */,
-				489A1A5D1BD62DD100ED4232 /* Info.plist */,
+				489A1A921BD68CEC00ED4232 /* classes */,
 				489A1A4C1BD62DD100ED4232 /* Supporting Files */,
 			);
 			path = gitBaiSi;
@@ -114,6 +130,7 @@
 		489A1A4C1BD62DD100ED4232 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				489A1A931BD68CEC00ED4232 /* Assets.xcassets */,
 				489A1A4D1BD62DD100ED4232 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,6 +152,202 @@
 				489A1A731BD62DD100ED4232 /* Info.plist */,
 			);
 			path = gitBaiSiUITests;
+			sourceTree = "<group>";
+		};
+		489A1A921BD68CEC00ED4232 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				489A1A961BD68CEC00ED4232 /* Essence(精华) */,
+				489A1A9A1BD68CEC00ED4232 /* FriendTrends(关注) */,
+				489A1A9F1BD68CEC00ED4232 /* Me(我的) */,
+				489A1AA31BD68CEC00ED4232 /* New(新帖) */,
+				489A1AA71BD68CEC00ED4232 /* Other(其他) */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		489A1A961BD68CEC00ED4232 /* Essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				489A1A971BD68CEC00ED4232 /* Controller */,
+				489A1A981BD68CEC00ED4232 /* Model */,
+				489A1A991BD68CEC00ED4232 /* View */,
+			);
+			path = "Essence(精华)";
+			sourceTree = "<group>";
+		};
+		489A1A971BD68CEC00ED4232 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AC21BD68FE500ED4232 /* XXEssenceController.h */,
+				489A1AC31BD68FE500ED4232 /* XXEssenceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A1A981BD68CEC00ED4232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489A1A991BD68CEC00ED4232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		489A1A9A1BD68CEC00ED4232 /* FriendTrends(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				489A1A9B1BD68CEC00ED4232 /* Controller */,
+				489A1A9C1BD68CEC00ED4232 /* Model */,
+				489A1A9D1BD68CEC00ED4232 /* View */,
+			);
+			path = "FriendTrends(关注)";
+			sourceTree = "<group>";
+		};
+		489A1A9B1BD68CEC00ED4232 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AC51BD6901A00ED4232 /* XXFriendTrendsController.h */,
+				489A1AC61BD6901A00ED4232 /* XXFriendTrendsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A1A9C1BD68CEC00ED4232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489A1A9D1BD68CEC00ED4232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		489A1A9F1BD68CEC00ED4232 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AA01BD68CEC00ED4232 /* Controller */,
+				489A1AA11BD68CEC00ED4232 /* Model */,
+				489A1AA21BD68CEC00ED4232 /* View */,
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		489A1AA01BD68CEC00ED4232 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AC81BD6903100ED4232 /* XXMeController.h */,
+				489A1AC91BD6903100ED4232 /* XXMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A1AA11BD68CEC00ED4232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489A1AA21BD68CEC00ED4232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		489A1AA31BD68CEC00ED4232 /* New(新帖) */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AA41BD68CEC00ED4232 /* Controller */,
+				489A1AA51BD68CEC00ED4232 /* Model */,
+				489A1AA61BD68CEC00ED4232 /* View */,
+			);
+			path = "New(新帖)";
+			sourceTree = "<group>";
+		};
+		489A1AA41BD68CEC00ED4232 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A1ACB1BD6904400ED4232 /* XXNewController.h */,
+				489A1ACC1BD6904400ED4232 /* XXNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A1AA51BD68CEC00ED4232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489A1AA61BD68CEC00ED4232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		489A1AA71BD68CEC00ED4232 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AA81BD68CEC00ED4232 /* AppDelegate.h */,
+				489A1AA91BD68CEC00ED4232 /* AppDelegate.m */,
+				489A1AAA1BD68CEC00ED4232 /* Category */,
+				489A1AAD1BD68CEC00ED4232 /* Controller */,
+				489A1AB21BD68CEC00ED4232 /* Model */,
+				489A1AB31BD68CEC00ED4232 /* PrefixHeader.pch */,
+				489A1AB41BD68CEC00ED4232 /* View */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		489A1AAA1BD68CEC00ED4232 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AAB1BD68CEC00ED4232 /* UIView+XXExtension.h */,
+				489A1AAC1BD68CEC00ED4232 /* UIView+XXExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		489A1AAD1BD68CEC00ED4232 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AAE1BD68CEC00ED4232 /* XXNavigationController.h */,
+				489A1AAF1BD68CEC00ED4232 /* XXNavigationController.m */,
+				489A1AB01BD68CEC00ED4232 /* XXTabBarController.h */,
+				489A1AB11BD68CEC00ED4232 /* XXTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A1AB21BD68CEC00ED4232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489A1AB41BD68CEC00ED4232 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				489A1AB51BD68CEC00ED4232 /* XXTabBar.h */,
+				489A1AB61BD68CEC00ED4232 /* XXTabBar.m */,
+				489A1AB71BD68CEC00ED4232 /* XXTabButton.h */,
+				489A1AB81BD68CEC00ED4232 /* XXTabButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +412,7 @@
 		489A1A411BD62DD100ED4232 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XX;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = xiaomage;
 				TargetAttributes = {
@@ -240,8 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489A1A591BD62DD100ED4232 /* Assets.xcassets in Resources */,
-				489A1A571BD62DD100ED4232 /* Main.storyboard in Resources */,
+				489A1AB91BD68CEC00ED4232 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +479,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489A1A541BD62DD100ED4232 /* ViewController.m in Sources */,
-				489A1A511BD62DD100ED4232 /* AppDelegate.m in Sources */,
+				489A1ABE1BD68CEC00ED4232 /* XXNavigationController.m in Sources */,
+				489A1ABF1BD68CEC00ED4232 /* XXTabBarController.m in Sources */,
+				489A1AC41BD68FE500ED4232 /* XXEssenceController.m in Sources */,
+				489A1ABC1BD68CEC00ED4232 /* AppDelegate.m in Sources */,
+				489A1ABD1BD68CEC00ED4232 /* UIView+XXExtension.m in Sources */,
+				489A1AC71BD6901A00ED4232 /* XXFriendTrendsController.m in Sources */,
+				489A1AC01BD68CEC00ED4232 /* XXTabBar.m in Sources */,
+				489A1ACA1BD6903100ED4232 /* XXMeController.m in Sources */,
 				489A1A4E1BD62DD100ED4232 /* main.m in Sources */,
+				489A1ACD1BD6904400ED4232 /* XXNewController.m in Sources */,
+				489A1AC11BD68CEC00ED4232 /* XXTabButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,17 +523,6 @@
 			targetProxy = 489A1A6E1BD62DD100ED4232 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		489A1A551BD62DD100ED4232 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				489A1A561BD62DD100ED4232 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		489A1A741BD62DD100ED4232 /* Debug */ = {
@@ -402,6 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "BrandAsset-2";
+				GCC_PREFIX_HEADER = "gitBaiSi/classes/Other(其他)/PrefixHeader.pch";
 				INFOPLIST_FILE = gitBaiSi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.gitBaiSi;
@@ -414,6 +625,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "BrandAsset-2";
+				GCC_PREFIX_HEADER = "gitBaiSi/classes/Other(其他)/PrefixHeader.pch";
 				INFOPLIST_FILE = gitBaiSi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.gitBaiSi;

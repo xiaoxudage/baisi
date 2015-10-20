@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XXFriendTrendsController.h
 //  gitBaiSi
 //
 //  Created by xiaoxu on 15/10/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XXFriendTrendsController : UIViewController
 
 @end
-

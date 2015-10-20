@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  XXMeController.h
 //  gitBaiSi
 //
 //  Created by xiaoxu on 15/10/20.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface XXMeController : UIViewController
 
 @end
-
