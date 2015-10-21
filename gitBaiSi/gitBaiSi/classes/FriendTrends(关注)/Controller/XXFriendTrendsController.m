@@ -7,7 +7,7 @@
 //
 
 #import "XXFriendTrendsController.h"
-
+#import "XXTestController.h"
 @interface XXFriendTrendsController ()
 
 @end
@@ -24,14 +24,17 @@
     
     self.navigationItem.title = @"我的关注";
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn setImage:[UIImage imageNamed:@"friendsRecommentIcon"] forState:UIControlStateNormal];
-    [btn setImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] forState:UIControlStateHighlighted];
-    [btn sizeToFit];
-    btn.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
-    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:btn];
     
-    self.navigationItem.leftBarButtonItem = item;
+   
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithNormalImage:@"friendsRecommentIcon" selecImage:@"friendsRecommentIcon-click" contentEdgeInsets:UIEdgeInsetsMake(0, -20, 0, 0) target:self action:@selector(friendsRecommentClick)];
+    
+   
 }
 
+
+- (void)friendsRecommentClick
+{
+    XXTestController *test = [[XXTestController alloc] init];
+    [self.navigationController pushViewController:test animated:YES];
+}
 @end

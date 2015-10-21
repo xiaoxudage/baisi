@@ -26,6 +26,7 @@
     [self setUpTextAttri];
     [self setValue:[[XXTabBar alloc] init] forKey:@"tabBar"];
     [self addChildViewControllers];
+    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 
 
@@ -60,7 +61,7 @@
 
 - (void)addChildViewController:(UIViewController *)vc title:(NSString *)tilte image:(UIImage *)image selecIMage:(UIImage *)seclecImage
 {
-    vc.view.backgroundColor = XXRandomColor;
+//    vc.view.backgroundColor = XXRandomColor;
     vc.tabBarItem.title = tilte;
     vc.tabBarItem.image = image;
     vc.tabBarItem.selectedImage = seclecImage;

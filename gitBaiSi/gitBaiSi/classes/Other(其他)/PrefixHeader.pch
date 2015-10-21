@@ -13,13 +13,14 @@
 #ifdef __OBJC__
 #ifdef DEBUG // 开发调试阶段
 #define XXLog(...) NSLog(__VA_ARGS__) //
+
 #else // 打包发布阶段
 #define  XXLog(...)
 #endif
 
 #import "UIView+XXExtension.h"
-
+#import "UIBarButtonItem+XXExtension.h"
 #define XXRandomColor [UIColor colorWithRed:arc4random_uniform(255) / 255.0 green:arc4random_uniform(255) / 255.0  blue:arc4random_uniform(255) / 255.0  alpha:1.0]
-
+#define XXLogFunc NSLog(@"%s",__func__)
 #endif
 #endif /* PrefixHeader_pch */
