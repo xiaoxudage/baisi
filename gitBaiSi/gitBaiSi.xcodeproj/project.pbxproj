@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		480BA2171BD73DE00093FCA4 /* XXFriendTrendsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480BA2161BD73DE00093FCA4 /* XXFriendTrendsController.storyboard */; settings = {ASSET_TAGS = (); }; };
+		480BD31F1BD767F800FBFD58 /* XXLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480BD31E1BD767F800FBFD58 /* XXLoginController.m */; settings = {ASSET_TAGS = (); }; };
 		487629071BD7217700C6C54D /* UIBarButtonItem+XXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 487629061BD7217700C6C54D /* UIBarButtonItem+XXExtension.m */; settings = {ASSET_TAGS = (); }; };
 		4876290A1BD7286C00C6C54D /* XXTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487629091BD7286C00C6C54D /* XXTestController.m */; settings = {ASSET_TAGS = (); }; };
 		489A1A4E1BD62DD100ED4232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1A4D1BD62DD100ED4232 /* main.m */; };
@@ -24,6 +25,7 @@
 		489A1AC71BD6901A00ED4232 /* XXFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC61BD6901A00ED4232 /* XXFriendTrendsController.m */; settings = {ASSET_TAGS = (); }; };
 		489A1ACA1BD6903100ED4232 /* XXMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC91BD6903100ED4232 /* XXMeController.m */; settings = {ASSET_TAGS = (); }; };
 		489A1ACD1BD6904400ED4232 /* XXNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1ACC1BD6904400ED4232 /* XXNewController.m */; settings = {ASSET_TAGS = (); }; };
+		48C28ACE1BD7DE6400658589 /* XXWeiBoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C28ACD1BD7DE6400658589 /* XXWeiBoButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		480BA2161BD73DE00093FCA4 /* XXFriendTrendsController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XXFriendTrendsController.storyboard; sourceTree = "<group>"; };
+		480BD31D1BD767F800FBFD58 /* XXLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXLoginController.h; sourceTree = "<group>"; };
+		480BD31E1BD767F800FBFD58 /* XXLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXLoginController.m; sourceTree = "<group>"; };
 		487629051BD7217700C6C54D /* UIBarButtonItem+XXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XXExtension.h"; sourceTree = "<group>"; };
 		487629061BD7217700C6C54D /* UIBarButtonItem+XXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XXExtension.m"; sourceTree = "<group>"; };
 		487629081BD7286C00C6C54D /* XXTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTestController.h; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		489A1AC91BD6903100ED4232 /* XXMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMeController.m; sourceTree = "<group>"; };
 		489A1ACB1BD6904400ED4232 /* XXNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNewController.h; sourceTree = "<group>"; };
 		489A1ACC1BD6904400ED4232 /* XXNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNewController.m; sourceTree = "<group>"; };
+		48C28ACC1BD7DE6400658589 /* XXWeiBoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXWeiBoButton.h; sourceTree = "<group>"; };
+		48C28ACD1BD7DE6400658589 /* XXWeiBoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXWeiBoButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +231,8 @@
 				480BA2161BD73DE00093FCA4 /* XXFriendTrendsController.storyboard */,
 				487629081BD7286C00C6C54D /* XXTestController.h */,
 				487629091BD7286C00C6C54D /* XXTestController.m */,
+				480BD31D1BD767F800FBFD58 /* XXLoginController.h */,
+				480BD31E1BD767F800FBFD58 /* XXLoginController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +247,8 @@
 		489A1A9D1BD68CEC00ED4232 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				48C28ACC1BD7DE6400658589 /* XXWeiBoButton.h */,
+				48C28ACD1BD7DE6400658589 /* XXWeiBoButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -502,6 +512,8 @@
 				489A1AC71BD6901A00ED4232 /* XXFriendTrendsController.m in Sources */,
 				489A1AC01BD68CEC00ED4232 /* XXTabBar.m in Sources */,
 				489A1ACA1BD6903100ED4232 /* XXMeController.m in Sources */,
+				48C28ACE1BD7DE6400658589 /* XXWeiBoButton.m in Sources */,
+				480BD31F1BD767F800FBFD58 /* XXLoginController.m in Sources */,
 				489A1A4E1BD62DD100ED4232 /* main.m in Sources */,
 				489A1ACD1BD6904400ED4232 /* XXNewController.m in Sources */,
 				4876290A1BD7286C00C6C54D /* XXTestController.m in Sources */,
