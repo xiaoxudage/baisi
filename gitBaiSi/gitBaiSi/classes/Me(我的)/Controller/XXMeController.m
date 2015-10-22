@@ -7,6 +7,7 @@
 //
 
 #import "XXMeController.h"
+#import "XXMeViewCell.h"
 
 @interface XXMeController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.backgroundColor = [UIColor lightGrayColor];
+    
+    self.tableView.sectionHeaderHeight = 0;
+    self.tableView.sectionFooterHeight = 10;
+    [self.tableView registerClass:[XXMeViewCell class] forCellReuseIdentifier:@"me"];
     [self setupNav];
 }
 
@@ -42,5 +48,30 @@
 - (void)settingClick
 {
     XXLogFunc;
+}
+#pragma mark - delegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    XXMeViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"me"];
+    
+    if (indexPath.section == 0) {
+        cell.textLabel.text = @"登录/注册";
+        cell.imageView.image = [UIImage imageNamed:@"publish-audio"];
+    }else
+    {
+        cell.textLabel.text = @"离线下载";
+    }
+    return cell;
 }
 @end

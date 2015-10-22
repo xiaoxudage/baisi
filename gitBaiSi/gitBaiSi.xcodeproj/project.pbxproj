@@ -25,6 +25,7 @@
 		489A1AC71BD6901A00ED4232 /* XXFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC61BD6901A00ED4232 /* XXFriendTrendsController.m */; settings = {ASSET_TAGS = (); }; };
 		489A1ACA1BD6903100ED4232 /* XXMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1AC91BD6903100ED4232 /* XXMeController.m */; settings = {ASSET_TAGS = (); }; };
 		489A1ACD1BD6904400ED4232 /* XXNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A1ACC1BD6904400ED4232 /* XXNewController.m */; settings = {ASSET_TAGS = (); }; };
+		48B1B4871BD7E58B0038DC4B /* XXMeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B1B4861BD7E58B0038DC4B /* XXMeViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		48C28ACE1BD7DE6400658589 /* XXWeiBoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C28ACD1BD7DE6400658589 /* XXWeiBoButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,8 @@
 		489A1AC91BD6903100ED4232 /* XXMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMeController.m; sourceTree = "<group>"; };
 		489A1ACB1BD6904400ED4232 /* XXNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNewController.h; sourceTree = "<group>"; };
 		489A1ACC1BD6904400ED4232 /* XXNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNewController.m; sourceTree = "<group>"; };
+		48B1B4851BD7E58B0038DC4B /* XXMeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMeViewCell.h; sourceTree = "<group>"; };
+		48B1B4861BD7E58B0038DC4B /* XXMeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMeViewCell.m; sourceTree = "<group>"; };
 		48C28ACC1BD7DE6400658589 /* XXWeiBoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXWeiBoButton.h; sourceTree = "<group>"; };
 		48C28ACD1BD7DE6400658589 /* XXWeiBoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXWeiBoButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -282,6 +285,8 @@
 		489A1AA21BD68CEC00ED4232 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				48B1B4851BD7E58B0038DC4B /* XXMeViewCell.h */,
+				48B1B4861BD7E58B0038DC4B /* XXMeViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -509,6 +514,7 @@
 				489A1AC41BD68FE500ED4232 /* XXEssenceController.m in Sources */,
 				489A1ABC1BD68CEC00ED4232 /* AppDelegate.m in Sources */,
 				489A1ABD1BD68CEC00ED4232 /* UIView+XXExtension.m in Sources */,
+				48B1B4871BD7E58B0038DC4B /* XXMeViewCell.m in Sources */,
 				489A1AC71BD6901A00ED4232 /* XXFriendTrendsController.m in Sources */,
 				489A1AC01BD68CEC00ED4232 /* XXTabBar.m in Sources */,
 				489A1ACA1BD6903100ED4232 /* XXMeController.m in Sources */,

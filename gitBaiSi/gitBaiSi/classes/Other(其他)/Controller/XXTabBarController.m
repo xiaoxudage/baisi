@@ -56,7 +56,7 @@
     
     [self addChildViewController:[[XXNavigationController alloc] initWithRootViewController:[[UIStoryboard storyboardWithName:NSStringFromClass([XXFriendTrendsController class]) bundle:nil] instantiateInitialViewController]] title:@"关注" image:[UIImage imageNamed:@"tabBar_friendTrends_icon"] selecIMage:[UIImage imageNamed:@"tabBar_friendTrends_click_icon"]];
     
-    [self addChildViewController:[[XXNavigationController alloc] initWithRootViewController:[[XXMeController alloc] init]] title:@"我" image:[UIImage imageNamed:@"tabBar_me_icon"] selecIMage:[UIImage imageNamed:@"tabBar_me_click_icon"]];
+    [self addChildViewController:[[XXNavigationController alloc] initWithRootViewController:[[XXMeController alloc] initWithStyle:UITableViewStyleGrouped]] title:@"我" image:[UIImage imageNamed:@"tabBar_me_icon"] selecIMage:[UIImage imageNamed:@"tabBar_me_click_icon"]];
 }
 
 - (void)addChildViewController:(UIViewController *)vc title:(NSString *)tilte image:(UIImage *)image selecIMage:(UIImage *)seclecImage
