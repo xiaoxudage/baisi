@@ -148,16 +148,7 @@
                                                     </mask>
                                                 </variation>
                                             </imageView>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1by-w5-o1t" userLabel="手机号">
-                                                <rect key="frame" x="0.0" y="0.0" width="266" height="46"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="46" id="uYE-2k-jSn"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
-                                            </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w5e-Hr-5IW" userLabel="密码">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w5e-Hr-5IW" userLabel="密码" customClass="XXTextField">
                                                 <rect key="frame" x="0.0" y="46" width="266" height="46"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -165,6 +156,15 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1by-w5-o1t" userLabel="手机号" customClass="XXTextField">
+                                                <rect key="frame" x="0.0" y="0.0" width="266" height="46"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="46" id="uYE-2k-jSn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -188,7 +188,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVe-kD-k4e">
                                         <rect key="frame" x="252" y="250" width="68" height="30"/>
                                         <state key="normal" title="忘记密码?">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -431,11 +431,11 @@
                                 <exclude reference="1wM-cy-Ocz"/>
                                 <exclude reference="9iW-YV-u4I"/>
                                 <exclude reference="eah-xN-WA1"/>
+                                <exclude reference="5ad-Pd-dm5"/>
+                                <exclude reference="DYP-fW-bYY"/>
                                 <exclude reference="NHw-m4-W8y"/>
                                 <exclude reference="cSA-6N-BWx"/>
                                 <exclude reference="tYV-Mb-5qe"/>
-                                <exclude reference="5ad-Pd-dm5"/>
-                                <exclude reference="DYP-fW-bYY"/>
                             </mask>
                         </variation>
                     </view>

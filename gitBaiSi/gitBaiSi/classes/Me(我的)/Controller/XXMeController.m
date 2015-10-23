@@ -8,7 +8,7 @@
 
 #import "XXMeController.h"
 #import "XXMeViewCell.h"
-
+#import "XXTableFooterView.h"
 @interface XXMeController ()
 
 @end
@@ -18,9 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.backgroundColor = [UIColor lightGrayColor];
-    
     self.tableView.sectionHeaderHeight = 0;
     self.tableView.sectionFooterHeight = 10;
+    XXTableFooterView *view = [[XXTableFooterView alloc] init];
+    view.backgroundColor = [UIColor redColor];
+    
+    view.height = 500;
+    self.tableView.tableFooterView = view;
+    
     [self.tableView registerClass:[XXMeViewCell class] forCellReuseIdentifier:@"me"];
     [self setupNav];
 }
